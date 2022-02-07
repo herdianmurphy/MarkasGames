@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="#BDBDBD">
+    <item
+        android:id="@+id/games"
+        android:icon="@drawable/ic_games"
+        android:title="Games"
+        app:cnb_iconColor="@color/black" />
+
+    <!-- HIDING FOR SPACE -->
+    <item
+        android:id="@+id/favorite"
+        android:enabled="false"
+        android:title=""
+        app:cnb_iconColor="#FFFFFF"/>
+    <!-- HIDING FOR SPACE -->
+
+    <item
+        android:id="@+id/genres"
+        android:icon="@drawable/ic_genres"
+        android:title="Genres"
+        app:cnb_iconColor="@color/black" />
+</menu>
